@@ -1,0 +1,20 @@
+.aboutus{
+    background:#fff !important;
+    padding:60px 0;
+}
+
+.aboutus .line{
+    background:#d8a611;
+    height:4px;
+    width:100px;
+    margin-top:-10px;
+}
+
+@media screen and (max-width: 480px) {
+    .aboutus img{
+        width: 60%;
+    }
+    .aboutus .image ,.aboutus p,.aboutus h2{
+        text-align: center;
+    }
+}

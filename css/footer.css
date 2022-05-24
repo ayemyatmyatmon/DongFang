@@ -1,0 +1,105 @@
+.footer{
+    padding-top:50px;
+    padding-bottom: 20px;
+    background:#0b4180;
+}
+
+.footer h2{
+    text-align: center;
+    color:#fff;
+
+}
+
+.footer p,.footer h1{
+    color:#fff;
+}
+
+.footer .icon i{
+    font-size: 20px;
+    color:#fff !important;
+}
+.footer .form-button .submit{
+    border-radius: 15px;
+    padding:10px 40px;
+    margin-top:20px;
+    background:#0b4180;
+    color:#fff;
+    box-shadow: 0 12px 32px 0 rgba(242, 243, 243, 0.43);
+}
+.footer .form-button .submit:hover{
+    background:#fff;
+    color:#0b4180;
+}
+
+.signin-signup-form .form-text input {
+    width: 100%;
+    margin-top:10px;
+    padding: 15px 30px;
+    border-radius: 100px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 700;
+    outline: 0;
+    box-shadow: 0 12px 32px 0 rgba(242, 243, 243, 0.43);
+
+    /* -webkit-box-shadow: 0 6px 12px 0 rgb(18 113 179 / 14%);
+    -moz-box-shadow: 0 6px 12px 0 rgba(18, 113, 179, 0.14); */
+    /* box-shadow: 0 6px 12px 0 rgb(18 113 179 / 14%); */
+}
+
+.footer .textarea textarea{
+    margin-top:10px;
+    min-height: 150px;
+    border-radius: 25px;
+    padding: 14px 30px;
+    width:100%;
+    border:0;
+    outline: 0;
+    box-shadow: 0 12px 32px 0 rgba(242, 243, 243, 0.43);
+/*
+    -webkit-box-shadow: 0 6px 12px 0 rgb(18 113 179 / 14%);
+    -moz-box-shadow: 0 6px 12px 0 rgba(18, 113, 179, 0.14);
+    box-shadow: 0 6px 12px 0 rgb(18 113 179 / 14%); */
+}
+
+.footer .privacy a{
+    color:#fff;
+}
+
+.submit:hover{
+    transition: 1s;
+    color:#fff;
+}
+
+.copyright{
+    text-align: center;
+    color:#fff;
+    padding:20px;
+    margin:0px !important;
+
+}
+/* @media (max-width: 375px) {
+    .footer .privacy a{
+        text-decoration: none;
+    }
+} */
+@media screen and (max-width: 480px) {
+    .footer{
+        padding:20px 2px;
+    }
+    .footer h1,.footer p ,.footer div{
+        text-align: center;
+    }
+    .footer .icon i{
+        color:#fff !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer h1,.footer p {
+        text-align: center;
+    }
+}
+

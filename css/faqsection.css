@@ -1,0 +1,75 @@
+.faqsection{
+    padding: 60px;
+    background-color: #fff !important;
+
+}
+
+.faqsection h1,.faqsection h5{
+    text-align: center;
+}
+
+.faqsection .card{
+    border:none;
+}
+
+.faqsection .card-body{
+    text-align: justify;
+    border-radius: 10px;
+    background:whitesmoke;
+}
+
+.faqsection .cardone .card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-image: linear-gradient(to right,#1da1f2,#0b4180);
+    border-radius: 100px;
+    /* box-shadow: 30px -14px 40px 2px rgb(242 243 243 / 43%); */
+    box-shadow: 0 12px 32px 0 rgb(242 243 243 / 43%);
+    border-bottom:1px solid rgba(11, 65, 128,.125) !important;
+}
+
+.faqsection .cardtwo .card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-image: linear-gradient(to right,#0b4180,#1da1f2);
+    border-radius: 100px;
+    /* box-shadow: 30px -14px 40px 2px rgb(242 243 243 / 43%); */
+    box-shadow: 0 12px 32px 0 rgb(242 243 243 / 43%);
+    border-bottom:1px solid rgba(11, 65, 128,.125) !important;
+}
+
+.faqsection .card-header a{
+    display: block;
+    color:#fff;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.morequestion{
+    visibility: hidden;
+} 
+
+
+@media screen and (max-width: 480px) {
+    .faqsection{
+        padding:15px 2px;
+    }
+    .faqsection .faqsectionright{
+        display: none;
+    }
+    .morequestion{
+        visibility: visible;
+        text-align:center;
+    }
+
+   
+}
+
+@media screen and (max-width: 768px) {
+    .faqsection{
+        padding:15px 2px;
+    }
+
+    
+}
