@@ -15,7 +15,7 @@ h5 {
   box-shadow: 5px 5px 10px hsla(212, 71%, 62%, 0.431);
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  border-left: 6px solid #0b4180;
+  border-left: 6px solid #1b6abf;
 }
 .how-it-work .card .card-body {
   padding: 1.4rem 0;
@@ -28,13 +28,17 @@ h5 {
   height: 35px;
   text-align: center;
   border-radius: 100%;
-  background: #0b4180;
+  background: #1b6abf;
   line-height: 2;
   margin-right: 10px;
   color: #fff;
 }
 .how-it-work .card:hover {
   transform: translateY(-10px);
+  transition: 1s;
+}
+.how-it-work .card{
+  transform: translateY(10px);
   transition: 1s;
 }
 .how-it-work .image {
@@ -44,11 +48,13 @@ h5 {
 .how-it-work .image img {
   width: 100%;
 }
-/* @media screen and (max-width: 480px) {
-   .how-it-work .image img{
-       
-   }
-} */
+@media screen and (max-width: 480px) {
+  .how-it-work .card .card-body .number {
+    width: 77px;
+    height: 33px;
+    line-height: 2.2;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .how-it-work .image img {

@@ -1,10 +1,11 @@
 .partner{
     padding-top:120px;
     padding-bottom:200px;
-    background-color: #0b4180 !important;
+    background-color: #1b6abf !important;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: bottom;
+    background-image: url('../image/partner.webp');
 
 }
 

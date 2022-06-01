@@ -21,7 +21,7 @@
 .faqsection .cardone .card-header {
     padding: 0.5rem 1rem;
     margin-bottom: 0;
-    background-image: linear-gradient(to right,#1da1f2,#0b4180);
+    background-image: linear-gradient(to right,#1da1f2,#1b6abf);
     border-radius: 100px;
     /* box-shadow: 30px -14px 40px 2px rgb(242 243 243 / 43%); */
     box-shadow: 0 12px 32px 0 rgb(242 243 243 / 43%);
@@ -31,7 +31,7 @@
 .faqsection .cardtwo .card-header {
     padding: 0.5rem 1rem;
     margin-bottom: 0;
-    background-image: linear-gradient(to right,#0b4180,#1da1f2);
+    background-image: linear-gradient(to right,#1b6abf,#1da1f2);
     border-radius: 100px;
     /* box-shadow: 30px -14px 40px 2px rgb(242 243 243 / 43%); */
     box-shadow: 0 12px 32px 0 rgb(242 243 243 / 43%);

@@ -47,12 +47,18 @@
   flex-wrap: wrap;
   position: relative;
   max-width: 500px;
+
 }
 
 .feature .productfeaturecard:hover {
   transform: translateY(-15px);
   transition: 1s;
   border-radius: 15px;
+}
+.feature .productfeaturecard{
+  transition:translateY(15px);
+  transition: 1s;
+
 }
 
 .feature .card::before {

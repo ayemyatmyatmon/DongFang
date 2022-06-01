@@ -1,12 +1,13 @@
 body {
-  background-color: #0b4180 !important;
+  background-color: #1b6abf !important;
   color: #666;
   font-family: Poppins, sans-serif;
   overflow-x: hidden;
+
 }
 
 #header {
-  background-color: #0b4180 !important;
+  background-color: #1b6abf !important;
 }
 
 .container-fluid {
@@ -97,7 +98,7 @@ h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background-color: #0a69bf;
+  background-color: #77b7f2;
 }
 
 #header.header-transparent {
@@ -105,7 +106,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background-color: #0a69bf;
+  background-color: #77b7f2;
   height: 70px;
   transition: all 0.5s;
 }

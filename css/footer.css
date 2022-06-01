@@ -1,6 +1,6 @@
 .footer{
     padding-top:100px;
-    background:#0b4180;
+    background:#1b6abf;
 }
 
 .footer h2{
@@ -129,7 +129,9 @@
     .footer h1,.footer p ,.footer div{
         text-align: center;
     }
-   
+   .footer .row{
+       height:90vh !important;
+   }
     .footer .right{
         top: 0px;
         display: flex;
@@ -146,10 +148,31 @@
     .footer .right .rightcard h5{
         color:#fff;
     }
-    
+    .copyright{
+        margin-bottom:10px !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    
+    
+    .footer h1,.footer p {
+        text-align: center;
+    }
+    
+    .footer .row{
+        height:60vh;
+    }
+    .right{
+        top: -35rem;
+        display: flex;
+        justify-content: right;
+        right:3rem;
+    } 
+    
+}
+
+@media screen and (max-width: 845px) {
     
 
     .footer h1,.footer p {
@@ -158,11 +181,10 @@
     
     
     .right{
-        top: -34rem;
+        top: -35rem;
         display: flex;
         justify-content: right;
         right:3rem;
     } 
    
 }
-
