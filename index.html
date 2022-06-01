@@ -81,16 +81,16 @@
                         phone devices for free.</p>
 
                     <div class="btn-group">
-                        <button type="button" class="btn btn-hoverEffect3 dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <button type="button" class="btn btn-hoverEffect3 dropdown-toggle" data-toggle="dropdown"
+                            aria-expanded="false">
                             Download DongFang Pay
                         </button>
                         <div class="dropdown-menu">
-                            
+
                             <a class="dropdown-item itemone" href="https://dfpaymm.com/apk/dongfangpay.apk"
                                 class="down_btn">
-                             
-                                <img src="image/uploads/download1.png" width="25px" height="25px"
-                                    alt="" />&nbsp;&nbsp;
+
+                                <img src="image/uploads/download1.png" width="25px" height="25px" alt="" />&nbsp;&nbsp;
                                 <span class="btn_text ">Download</span>
                             </a>
 
@@ -163,7 +163,7 @@
     </section> -->
     <!-- endaboutus -->
     <section class="aboutus" id="about">
-        
+
         <h2 class="text-center">About Our Company</h2>
         <div class="line"></div>
         <div class="wrapper">
@@ -171,7 +171,7 @@
                 <li class="active">
                     <a> "DongFang Pay” is a mobile wallet application which is implemented for financial services
                         provided by DONGFANG IT SERVICES Co.,ltd.
-                    <img src="image/laukkai.jpeg" alt="">
+                        <img src="image/laukkai.jpeg" alt="">
                 </li>
                 <li>
                     <a>It can be downloaded on all phone devices for free.</a>
@@ -181,12 +181,12 @@
                     <a> Functions such as phone bill top up, electricity and water bill payment purchasing your
                         preferable products, buying trips tickets, transaction processes, cash in and withdraw processes
                         can be easily performed by DongFang Pay App.
-                    <img src="image/laukkai2.jpeg" alt="">
+                        <img src="image/laukkai2.jpeg" alt="">
                 </li>
             </ul>
             <div class="featured-image"></div>
         </div>
-        
+
     </section>
     <!-- feature -->
     <section class="feature" id="features">
@@ -718,9 +718,9 @@
                         <div class="row">
                             <div
                                 class="col-lg-8 btn btn-hoverEffect3 col-md-12 col-sm-12 download wow bounceInUp animate__animated animate__fadeInBottomRight">
-                                <a href="#" >
+                                <a href="#">
                                     <img src="image/uploads/download1.png">&nbsp;&nbsp;
-                                    <span >Download</span>
+                                    <span>Download</span>
                                 </a>
                             </div>
 
@@ -851,9 +851,9 @@
     <!-- EndFooter --}} -->
     <p class="copyright mb-3">© Copyright DongFang Power by DONGFANG IT SERVICES COMPANY LIMITED</p>
 
+    
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-chevron-up"></i></a>
-
     <!-- EndFooter  -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -890,12 +890,16 @@
             $(".faqsectionright").show();
 
         });
-        
-        $('.list-reset li').on('click', function(){
-        $('.list-reset li').removeClass('active')
-        $(this).addClass('active')
+
+        $('.list-reset li').on('click', function () {
+            $('.list-reset li').removeClass('active')
+            $(this).addClass('active')
+
+        })
        
-})
+        $('.back-to-top').on('click',function(){
+            $("html, body").animate({scrollTop: 0}, 100);
+        })
     </script>
 
     <!-- JavaScript Libraries -->

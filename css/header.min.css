@@ -8,6 +8,8 @@ body {
 
 #header {
   background-color: #1b6abf !important;
+  z-index: 9999;
+
 }
 
 .container-fluid {
@@ -109,7 +111,6 @@ h6 {
   background-color: #77b7f2;
   height: 70px;
   transition: all 0.5s;
-  z-index: 9999;
 
 }
 
@@ -135,6 +136,7 @@ h6 {
   color: #fff;
   font-weight: 600;
 }
+
 @media (max-width: 768px) {
   #header #logo h1 {
     font-size: 28px;
