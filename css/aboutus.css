@@ -12,29 +12,7 @@
 .aboutus #carouselExampleIndicators{
     visibility: hidden;
 }
-@media screen and (max-width: 480px) {
-  .aboutus img {
-    width: 60%;
-  }
-  .aboutus .image,
-  .aboutus p,
-  .aboutus h2 {
-    text-align: center;
-  }
-  .aboutus li:nth-of-type(1){
-      visibility: visible;
-      height:45vh !important;
-  }
-  .aboutus li:nth-of-type(2){
-    visibility: visible;
-}
-.aboutus li:nth-of-type(3){
-    visibility: hidden;
-}
-  .aboutus #carouselExampleIndicators{
-    visibility: visible;
-}
-}
+
 /* slider */
 
 .aboutus .wrapper {
@@ -51,7 +29,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  width: calc(30% - 4px);
+  width: calc(30% - 2px);
   min-height: 350px;
   height: 70vh;
   flex-direction: column;
@@ -105,3 +83,31 @@
   opacity: 1;
   transform: translatey(0);
 }
+@media screen and (max-width: 480px) {
+    .aboutus img {
+      width: 70%;
+    }
+    .aboutus .image,
+    .aboutus p,
+    .aboutus h2 {
+      text-align: center;
+    }
+    .aboutus li a:nth-of-type(1){
+        visibility: visible;
+        height:45vh !important;
+        font-size:15px;
+
+    }
+    .aboutus li:nth-of-type(2){
+      visibility: visible;
+      font-size:15px;
+
+  }
+  .aboutus li:nth-of-type(3){
+      visibility: hidden;
+
+  }
+    .aboutus #carouselExampleIndicators{
+      visibility: visible;
+  }
+  }
