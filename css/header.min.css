@@ -109,6 +109,8 @@ h6 {
   background-color: #77b7f2;
   height: 70px;
   transition: all 0.5s;
+  z-index: 9999;
+
 }
 
 #header #logo h1 {

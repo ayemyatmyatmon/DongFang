@@ -50,9 +50,9 @@ h5 {
 }
 @media screen and (max-width: 480px) {
   .how-it-work .card .card-body .number {
-    width: 77px;
-    height: 33px;
-    line-height: 2.2;
+    width: 77px !important;
+    height: 33px !important;
+    line-height: 2.2 !important;
   }
 }
 

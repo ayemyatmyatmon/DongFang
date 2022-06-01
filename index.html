@@ -81,20 +81,25 @@
                         phone devices for free.</p>
 
                     <div class="btn-group">
-                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <button type="button" class="btn btn-hoverEffect3 dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                             Download DongFang Pay
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://dfpaymm.com/apk/dongfangpay.apk"
-                                class="down_btn"><img src="image/uploads/download1.png" width="25px" height="25px"
+                            
+                            <a class="dropdown-item itemone" href="https://dfpaymm.com/apk/dongfangpay.apk"
+                                class="down_btn">
+                             
+                                <img src="image/uploads/download1.png" width="25px" height="25px"
                                     alt="" />&nbsp;&nbsp;
-                                <span class="btn_text">Download</span></a>
-                            <a class="dropdown-item itemtwo"
+                                <span class="btn_text ">Download</span>
+                            </a>
+
+                            <a class="dropdown-item itemtwo "
                                 href="https://play.google.com/store/apps/details?id=com.ninecomplex.dongfangpay"
                                 class="down_btn"><img src="image/uploads/google-play.png" width="25px" height="25px"
                                     alt="" />&nbsp;&nbsp;
                                 <span class="btn_text">Play Store</span></a>
-                            <a class="dropdown-item" href="https://apps.apple.com/us/app/dongfang-pay/id1613104504"
+                            <a class="dropdown-item " href="https://apps.apple.com/us/app/dongfang-pay/id1613104504"
                                 class="down_btn"><img src="image/uploads/apple.png" width="25px" height="25px"
                                     alt="" />&nbsp;&nbsp;
                                 <span class="btn_text">App Store</span></a>
@@ -133,7 +138,7 @@
     <!--  endwelcome- -->
 
     <!-- --aboutus -->
-    <section class="aboutus" id="about">
+    <!-- <section class="aboutus" id="about">
         <div class="container">
             <div class="row">
                 <div
@@ -155,9 +160,34 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- endaboutus -->
-
+    <section class="aboutus" id="about">
+        
+        <h2 class="text-center">About Our Company</h2>
+        <div class="line"></div>
+        <div class="wrapper">
+            <ul class="list-reset">
+                <li class="active">
+                    <a> "DongFang Pay” is a mobile wallet application which is implemented for financial services
+                        provided by DONGFANG IT SERVICES Co.,ltd.
+                    <img src="image/laukkai.jpeg" alt="">
+                </li>
+                <li>
+                    <a>It can be downloaded on all phone devices for free.</a>
+                    <img src="image/laukkai1.jpeg" alt="">
+                </li>
+                <li>
+                    <a> Functions such as phone bill top up, electricity and water bill payment purchasing your
+                        preferable products, buying trips tickets, transaction processes, cash in and withdraw processes
+                        can be easily performed by DongFang Pay App.
+                    <img src="image/laukkai2.jpeg" alt="">
+                </li>
+            </ul>
+            <div class="featured-image"></div>
+        </div>
+        
+    </section>
     <!-- feature -->
     <section class="feature" id="features">
         <h2>Product Features</h2>
@@ -687,15 +717,15 @@
                     <div class="mt-5">
                         <div class="row">
                             <div
-                                class="col-lg-8 col-md-12 col-sm-12 download wow bounceInUp animate__animated animate__fadeInBottomRight">
-                                <a href="#">
+                                class="col-lg-8 btn btn-hoverEffect3 col-md-12 col-sm-12 download wow bounceInUp animate__animated animate__fadeInBottomRight">
+                                <a href="#" >
                                     <img src="image/uploads/download1.png">&nbsp;&nbsp;
-                                    <span>Download</span>
+                                    <span >Download</span>
                                 </a>
                             </div>
 
                             <div
-                                class="col-lg-8 col-md-12 col-sm-12 download wow bounceInUp animate__animated animate__fadeInBottomRight">
+                                class="col-lg-8 btn btn-hoverEffect3 col-md-12 col-sm-12 download wow bounceInUp animate__animated animate__fadeInBottomRight">
                                 <a href="#">
                                     <img src="image/uploads/apple.png">&nbsp;&nbsp;
                                     <span> App Store</span>
@@ -703,7 +733,7 @@
 
                             </div>
                             <div
-                                class="col-lg-8 col-md-12 col-sm-12 download wow bounceInUp animate__animated animate__fadeInBottomRight">
+                                class="col-lg-8 btn btn-hoverEffect3 col-md-12 col-sm-12 download wow bounceInUp animate__animated animate__fadeInBottomRight">
                                 <a href="#">
                                     <img src="image/uploads/google-play.png">&nbsp;&nbsp;
                                     <span> Play Store</span>
@@ -860,6 +890,12 @@
             $(".faqsectionright").show();
 
         });
+        
+        $('.list-reset li').on('click', function(){
+        $('.list-reset li').removeClass('active')
+        $(this).addClass('active')
+       
+})
     </script>
 
     <!-- JavaScript Libraries -->
