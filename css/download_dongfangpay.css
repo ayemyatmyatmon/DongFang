@@ -1,6 +1,7 @@
 .download-dongfang{
-    background:#fff;
-    padding-top:60px;
+    background:#0b4180;
+    padding:60px;
+    color:#fff;
 }
 
 .download-dongfang img{
@@ -45,6 +46,9 @@
 }
 
 @media screen and (max-width: 480px) {
+    .download-dongfang{
+        padding:0;
+    }
     .download-dongfang .image{
         display: flex;
         justify-content: center;

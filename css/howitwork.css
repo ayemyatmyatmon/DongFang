@@ -1,0 +1,79 @@
+.how-it-work {
+  padding: 70px 0;
+  background: #fff;
+}
+.how-it-work h3,
+h5 {
+  color: #0b4180;
+}
+
+.how-it-work .card {
+  background: #fff;
+  outline: 0;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px hsla(212, 71%, 62%, 0.431);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-left: 6px solid #0b4180;
+}
+.how-it-work .card .card-body {
+  padding: 1.4rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.how-it-work .card .card-body .number {
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  border-radius: 100%;
+  background: #0b4180;
+  line-height: 2;
+  margin-right: 10px;
+  color: #fff;
+}
+.how-it-work .card:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+}
+.how-it-work .image {
+  position: relative;
+  animation: example 3s linear 3s infinite alternate;
+}
+.how-it-work .image img {
+  width: 100%;
+}
+/* @media screen and (max-width: 480px) {
+   .how-it-work .image img{
+       
+   }
+} */
+
+@media screen and (max-width: 768px) {
+  .how-it-work .image img {
+    width: 100%;
+  }
+  .how-it-work .card .card-body .number {
+    width: 45px;
+    height: 37px;
+    line-height: 2.2;
+  }
+}
+@keyframes example {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 10px;
+  }
+  50% {
+    top: 15px;
+  }
+  75% {
+    top: 8px;
+  }
+  100% {
+    top: 0px;
+  }
+}
