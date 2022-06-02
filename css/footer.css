@@ -79,6 +79,7 @@
 
 }
 .right{
+    position:relative;
     top: -17rem;
     display: flex;
     justify-content: right;
